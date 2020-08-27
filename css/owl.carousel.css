@@ -20,7 +20,8 @@
     /* fix firefox animation glitch */ }
   .owl-carousel .owl-stage:after {
     content: ".";
-    display: block;
+    letter-spacing: 5px;
+    display: inline-block;
     clear: both;
     visibility: hidden;
     line-height: 0;
@@ -46,7 +47,7 @@
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none; }
   .owl-carousel .owl-item img {
-    display: block;
+    display: inline;
     width: 100%; }
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
@@ -91,7 +92,7 @@
  *  Owl Carousel - Animate Plugin
  */
 .owl-carousel .animated {
-  animation-duration: 1000ms;
+  animation-duration: 5000ms;
   animation-fill-mode: both; }
 
 .owl-carousel .owl-animated-in {
@@ -120,7 +121,7 @@
  */
 .owl-carousel .owl-item .owl-lazy {
   opacity: 0;
-  transition: opacity 400ms ease; }
+  transition: opacity 5000ms ease; }
 
 .owl-carousel .owl-item img.owl-lazy {
   transform-style: preserve-3d; }
